@@ -1,8 +1,6 @@
-#include <iostream>
-#include <GLFW/glfw3.h>
+#include "Engine.h"
 
 int main() {
-	int t = glfwInit();
-	std::cout << t << std::endl;
+	engine::PrintHello();
 	return 0;
 }
